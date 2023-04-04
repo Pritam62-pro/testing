@@ -1,0 +1,196 @@
+﻿Diagnose log at 2023-04-04T17:46:57Z
+
+Executable: D:\Git\mingw64\bin\git-credential-manager-core.exe
+Version: 2.0.785+6074e4e3d3
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22000)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\HP
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=PRITAM
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\HP\OneDrive
+WT_PROFILE_ID={61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+RegionCode=APJ
+TMP=C:\Users\HP\AppData\Local\Temp
+PROCESSOR_REVISION=5000
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+GIT_EXEC_PATH=D:/Git/mingw64/libexec/git-core
+TEMP=C:\Users\HP\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\HP\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+COLORTERM=truecolor
+USERDOMAIN=PRITAM
+ProgramFiles(x86)=C:\Program Files (x86)
+platformcode=KV
+Path=D:/Git/mingw64/libexec/git-core;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\HP\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;D:\Git
+PROCESSOR_LEVEL=25
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+TMPDIR=C:\Users\HP\AppData\Local\Temp
+PSModulePath=D:\one drive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=12
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+WT_SESSION=cbf05738-6248-4ef6-95f9-11f376cb905d
+WSLENV=WT_SESSION::WT_PROFILE_ID
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+OnlineServices=Online Services
+SystemRoot=C:\WINDOWS
+HOME=C:\Users\HP
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\PRITAM
+USERPROFILE=C:\Users\HP
+USERDOMAIN_ROAMINGPROFILE=PRITAM
+APPDATA=C:\Users\HP\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=HP
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\HP\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\HP\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\HP\AppData\Local\Temp\5be64fb3960da51825f71068'... OK
+Reading from temporary file 'C:\Users\HP\AppData\Local\Temp\5be64fb3960da51825f71068'... OK
+Deleting temporary file 'C:\Users\HP\AppData\Local\Temp\5be64fb3960da51825f71068'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\HP
+UserDataDirectoryPath: C:\Users\HP\.gcm
+GetCurrentDirectory(): C:\Users\HP\Desktop\_\testing
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:50609/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+Testing with IHttpClientFactory created HTTP client...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:50611/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.37.1.windows.1'
+Locating current repository... OK
+Git repository at 'C:/Users/HP/desktop/_/testing/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:D:/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:D:/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:D:/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:D:/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:D:/Git/etc/gitconfig	filter.lfs.required=true
+file:D:/Git/etc/gitconfig	http.sslbackend=openssl
+file:D:/Git/etc/gitconfig	http.sslcainfo=D:/Git/mingw64/ssl/certs/ca-bundle.crt
+file:D:/Git/etc/gitconfig	core.autocrlf=true
+file:D:/Git/etc/gitconfig	core.fscache=true
+file:D:/Git/etc/gitconfig	core.symlinks=false
+file:D:/Git/etc/gitconfig	pull.rebase=false
+file:D:/Git/etc/gitconfig	credential.helper=manager-core
+file:D:/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:D:/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/HP/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/HP/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/HP/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/HP/.gitconfig	filter.lfs.required=true
+file:C:/Users/HP/.gitconfig	user.name=pritam62-pro
+file:C:/Users/HP/.gitconfig	user.email=pritambiswas62960737@gmail.com
+file:C:/Users/HP/.gitconfig	credential.helper=cache
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Pritam62-pro/testing.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\HP\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\HP\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
